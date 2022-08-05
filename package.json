@@ -15,7 +15,10 @@
     "format": "prettier --write .",
     "test:unit": "hardhat test",
     "coverage": "hardhat coverage",
-    "1-propose": "hardhat run scripts/1-propose.ts --network localhost"
+    "1-propose": "hardhat run scripts/1-propose.ts --network localhost",
+    "2-vote": "hardhat run scripts/2-vote.ts --network localhost",
+    "3-check-state": "hardhat run scripts/3-check-state.ts --network localhost",
+    "4-queue-and-execute": "hardhat run scripts/4-queue-and-execute.ts --network localhost"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@0.3.0-beta.12",
