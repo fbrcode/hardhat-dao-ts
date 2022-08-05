@@ -39,6 +39,9 @@ const config: HardhatUserConfig = {
         mnemonic: 'test test test test test test test test test test test junk',
         count: 5,
       },
+      gas: 12000000,
+      blockGasLimit: 0x1fffffffffffff,
+      allowUnlimitedContractSize: true,
       // forking: { url: MAINNET_RPC_URL, },
     },
     rinkeby: {
